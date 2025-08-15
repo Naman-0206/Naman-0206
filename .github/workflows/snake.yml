@@ -1,26 +1,25 @@
 name: Generate Snake Animation
 
 on:
-  schedule: # Runs every day at 05:30 AM IST (00:00 UTC)
-    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"  # Runs at 00:00 UTC (05:30 AM IST)
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ✅ Important for pushing changes
     steps:
-      # 1️⃣ Check out your repo so we have the .git folder
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Generate the snake animation
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: naman-0206
+          github_user_name: Naman-0206
           outputs: dist/github-contribution-grid-snake.svg
 
-      # 3️⃣ Push the generated file to the 'output' branch
       - name: Push Snake Animation to Output Branch
         uses: EndBug/add-and-commit@v9
         with:
