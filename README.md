@@ -1,12 +1,12 @@
 <!-- Typing Effect -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F75C7E&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Naman+Garg;Backend+Developer+%7C+System+Design+Enthusiast;Lover+of+Cloud+%2B+Automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F75C7E&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Naman+Garg;Backend+Developer+%7C+System+Design+Enthusiast)](https://git.io/typing-svg)
 
 ---
 
 ## 🧑‍💻 About Me
 - 🎓 **B.Tech CSE** @ Bhagwan Parshuram Institute Of Technology (2022-26)  
 <!-- - 🚀 Currently working on **PaleDrive** – Windows cloud drive backed by S3 with tiered storage -->
-- 🛠 Experienced in **APIs, microservices, scalable backend systems, and cloud-driven storage solutions**  
+- 🛠 Experienced in **Python, APIs, microservices, scalable backend systems**
 - 🏆 **Achievements**:
   - **3★** CodeChef (Max Rating: 1775)
   - **Global Rank 26** in START174D
