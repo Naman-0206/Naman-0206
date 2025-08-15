@@ -92,5 +92,5 @@
   <a href="https://www.linkedin.com/in/-naman-garg"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://leetcode.com/Garg_Naman"><img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
   <a href="https://www.codechef.com/users/garg_naman_85"><img src="https://img.shields.io/badge/CodeChef-5B4638.svg?style=for-the-badge&logo=codechef&logoColor=white"/></a>
-  <a href="https://codeforces.com/profile/Naman_Garg"><img src="https://img.shields.io/badge/Codeforces-445f9d.svg?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
+  <a href="https://codeforces.com/profile/Garg_Naman"><img src="https://img.shields.io/badge/Codeforces-445f9d.svg?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
 </p>
