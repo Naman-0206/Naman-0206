@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # ✅ Required for pushing changes
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Needed to pull/push branches
+          fetch-depth: 0  # Needed for branch switching
 
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -29,9 +29,17 @@ jobs:
 
       - name: Commit and Push Snake Animation
         run: |
+          # Ensure we’re on output branch
           git fetch origin output || true
           git checkout output || git checkout -b output
-          git pull origin output || true
+
+          # Copy fresh file into branch (overwrite if exists)
+          cp dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake.svg
+
+          # Stage + commit
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Generate snake animation" || echo "No changes to commit"
+
+          # Rebase onto latest remote before push (avoids divergent history)
+          git pull --rebase origin output || true
           git push origin output
